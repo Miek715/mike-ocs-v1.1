@@ -1,0 +1,19 @@
+body{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    color:crimson;
+    margin: 30px 0 50px;
+}
+.gallery{
+    margin: 10px 50px;
+}
+.gallery img{
+    width: 850px
+    padding: 5px;
+    transition 1s;
+}
+.gallery img:hover{
+    transform:scale(1.1);
+}
